@@ -1,0 +1,55 @@
+
+@media (max-width: 768px){
+    .header_menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: relative;
+        justify-content: space-around;
+        a{
+            padding: 10px;
+            margin: 0px;
+            letter-spacing: none;
+            font-size: small;
+        }
+    }
+     
+}
+
+@media (max-width: 576px){
+    .seccion_producto{
+        margin: 30px;
+        display: block
+            
+    }
+    
+}
+
+@media (max-width: 768px){
+    .footer_direccion{
+        padding-left: 10px;
+        margin-left: 20px;
+    }
+    
+        .footer_mapa{
+        justify-self: flex-end;
+        width: 50%;
+        height: 100px;
+    }
+        .footer_ubicacion{
+            font-size: x-small;
+        }
+        
+           
+    }
+
+@media (max-width: 768px){
+    .secciones_imagen{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: space-between;
+    }
+}
+

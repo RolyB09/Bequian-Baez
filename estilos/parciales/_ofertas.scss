@@ -1,0 +1,8 @@
+.seccion-oferta{
+    margin-top: 50px;
+    margin-left: 25px;
+    display: grid;
+    grid-template-rows: 3fr 2fr; 
+    grid-template-columns: 2fr 1fr;
+    justify-items: stretch;
+}

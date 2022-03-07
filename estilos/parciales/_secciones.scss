@@ -1,0 +1,46 @@
+.secciones_subtitulos{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.secciones_imagen{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px
+}
+
+.section_pago{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+    padding: 15px;
+    font-style: italic;
+    font-size: xx-large;
+    
+}
+.section_medios{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: auto;
+
+}
+.pago_subititulo{
+    font-size: large;
+    font-style: italic;
+}
+

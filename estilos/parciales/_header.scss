@@ -1,0 +1,25 @@
+.header_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    background-color: rgba(156, 153, 156, 0.418);
+    padding: auto;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    list-style: none;
+    a{
+        padding: 10px;
+        margin: 5px;
+        text-decoration: none;
+        color: black;
+        letter-spacing: 5px;
+        font-weight: bold;
+        
+    }
+    
+        
+
+}
+
