@@ -10,7 +10,7 @@
             padding: 10px;
             margin: 0px;
             letter-spacing: none;
-            font-size: small;
+            font-size: xx-small;
         }
     }
      
@@ -26,22 +26,23 @@
 }
 
 @media (max-width: 768px){
-    .footer_direccion{
-        padding-left: 10px;
-        margin-left: 20px;
-    }
-    
-        .footer_mapa{
-        justify-self: flex-end;
+    .footer_mapa{
+        flex-grow: 2;
         width: 50%;
-        height: 100px;
+        height: 70%;
     }
-        .footer_ubicacion{
-            font-size: x-small;
+    .footer_ubicacion{
+            font-size: xx-small;
         }
         
            
     }
+
+@media (max-width: 768px){
+    .header_menu{
+        font-size: xx-small;
+    }
+}
 
 @media (max-width: 768px){
     .secciones_imagen{

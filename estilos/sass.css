@@ -77,6 +77,7 @@
   justify-content: space-between;
   align-items: flex-end;
   position: relative;
+  width: 100%;
   padding-top: 15px;
   margin-top: 30px;
   background-color: #f8f5f5;
@@ -93,7 +94,7 @@
   color: black;
   font-style: italic;
   font-weight: bold;
-  font-size: medium;
+  font-size: small;
 }
 .footer_menu_bequian {
   left: 15px;
@@ -167,7 +168,7 @@
     padding: 10px;
     margin: 0px;
     letter-spacing: none;
-    font-size: small;
+    font-size: xx-small;
   }
 }
 @media (max-width: 576px) {
@@ -177,19 +178,19 @@
   }
 }
 @media (max-width: 768px) {
-  .footer_direccion {
-    padding-left: 10px;
-    margin-left: 20px;
-  }
-
   .footer_mapa {
-    justify-self: flex-end;
+    flex-grow: 2;
     width: 50%;
-    height: 100px;
+    height: 70%;
   }
 
   .footer_ubicacion {
-    font-size: x-small;
+    font-size: xx-small;
+  }
+}
+@media (max-width: 768px) {
+  .header_menu {
+    font-size: xx-small;
   }
 }
 @media (max-width: 768px) {
