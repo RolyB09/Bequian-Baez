@@ -162,7 +162,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     position: relative;
-    justify-content: space-around;
+    justify-content: flex-start;
   }
   .header_menu a {
     padding: 10px;
@@ -200,5 +200,10 @@
     flex-wrap: wrap;
     position: relative;
     justify-content: space-between;
+  }
+}
+@media (max-width: 768px) {
+  .footer_menu a {
+    font-size: xx-small;
   }
 }/*# sourceMappingURL=sass.css.map */

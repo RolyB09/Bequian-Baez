@@ -5,7 +5,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
         position: relative;
-        justify-content: space-around;
+        justify-content: flex-start;
         a{
             padding: 10px;
             margin: 0px;
@@ -51,6 +51,11 @@
         flex-wrap: wrap;
         position: relative;
         justify-content: space-between;
+    }
+}
+@media (max-width: 768px){
+    .footer_menu a{
+        font-size: xx-small;
     }
 }
 
