@@ -181,10 +181,10 @@
     position: relative;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin: 15px;
+    margin: 10px;
   }
   .header_menu a {
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
     letter-spacing: none;
     font-size: xx-small;
