@@ -26,18 +26,6 @@
 }
 
 
-@media (max-width: 768px){
-    .footer_mapa{
-        flex-grow: 2;
-        width: 50%;
-        height: 70%;
-    }
-    .footer_ubicacion{
-            font-size: xx-small;
-        }
-        
-           
-    }
 
 @media (max-width: 768px){
     .header_menu{
@@ -54,18 +42,5 @@
         justify-content: space-between;
     }
 }
-@media (max-width: 768px){
-    .footer_menu a{
-        font-size: xx-small;
-    }
-}
 
-@media (max-width: 768px){
-    .footer{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-    }
-}
 
