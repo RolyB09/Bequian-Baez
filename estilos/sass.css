@@ -184,7 +184,7 @@
   }
   .header_menu a {
     padding: 10px;
-    margin: 0px;
+    margin: 5px;
     letter-spacing: none;
     font-size: xx-small;
   }
@@ -218,6 +218,19 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer_location {
+    font-size: xx-small;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer_map {
+    width: 40%;
+    height: 120px;
   }
 }
 
@@ -258,6 +271,7 @@
   grid-area: logo;
   justify-items: center;
   background-color: #f8f5f5;
+  margin-left: 15px;
 }
 
 .footer_adress {
@@ -272,5 +286,10 @@
   background-color: #f8f5f5;
   margin: 10px;
   padding: 15px;
+}
+
+.footer_location {
+  font-style: italic;
+  font-size: medium;
 }
 /*# sourceMappingURL=sass.css.map */
