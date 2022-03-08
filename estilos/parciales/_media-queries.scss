@@ -6,7 +6,7 @@
         flex-wrap: nowrap;
         position: relative;
         justify-content: space-around;
-        margin: 0px;
+        margin: 15px;
         a{
             padding: 10px;
             margin: 5px;
@@ -51,7 +51,11 @@
 }
 @media (max-width: 768px){
     .footer_map{
-        width: 40%; height: 120px;
+        width: 40%;
+        height: 120px;
+    }
+    .footer_logo{
+        width: 40%; height: 80px;
     }
 }
 

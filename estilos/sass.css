@@ -181,7 +181,7 @@
     position: relative;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin: 0px;
+    margin: 15px;
   }
   .header_menu a {
     padding: 10px;
@@ -233,6 +233,10 @@
     width: 40%;
     height: 120px;
   }
+  .footer_logo {
+    width: 40%;
+    height: 80px;
+  }
 }
 
 .footer_dos {
@@ -272,7 +276,7 @@
   grid-area: logo;
   justify-items: center;
   background-color: #f8f5f5;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .footer_adress {
