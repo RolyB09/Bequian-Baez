@@ -181,6 +181,7 @@
     position: relative;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    margin: 0px;
   }
   .header_menu a {
     padding: 10px;
@@ -290,6 +291,6 @@
 
 .footer_location {
   font-style: italic;
-  font-size: medium;
+  font-size: small;
 }
 /*# sourceMappingURL=sass.css.map */
