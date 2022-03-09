@@ -4,6 +4,7 @@
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "list adress" "logo adress";
     background-color: rgb(248, 245, 245);
+    justify-items: center;
     
     
 
@@ -11,7 +12,6 @@
 
 .footer_list{
     grid-area: list;
-    justify-items: center;
     background-color: rgb(248, 245, 245);
     list-style: none;
     margin-top: 20px;
@@ -26,17 +26,18 @@
     }
 }
 
+.footer_list a:hover{
+    color: white;
+}
+
 .footer_logo{
     grid-area: logo;
-    justify-items: center;
     background-color: rgb(248, 245, 245);
     margin-left: 25px;
 }
 
 .footer_adress{
     grid-area: adress;
-    justify-items: end;
-    align-items: flex-end;
     background-color: rgb(248, 245, 245);
     margin: 10px;
     padding: 15px;

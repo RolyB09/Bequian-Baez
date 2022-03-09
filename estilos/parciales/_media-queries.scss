@@ -1,5 +1,5 @@
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .header_menu {
         display: flex;
         flex-direction: row;
@@ -17,7 +17,7 @@
      
 }
 
-@media (max-width: 576px){
+@media screen and (max-width: 576px){
     .seccion_producto{
         margin: 30px;
         display: block
@@ -28,13 +28,13 @@
 
 
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .header_menu{
         font-size: xx-small;
     }
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .secciones_imagen{
         display: flex;
         flex-direction: row;
@@ -44,12 +44,12 @@
     }
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .footer_location{
         font-size: xx-small;
     }
 }
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .footer_map{
         width: 40%;
         height: 120px;
