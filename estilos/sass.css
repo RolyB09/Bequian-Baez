@@ -173,7 +173,7 @@
   }
 
   .footer_list {
-    justify-self: start;
+    font-size: small;
   }
 }
 .footer_dos {
@@ -197,7 +197,6 @@
   color: black;
   font-style: italic;
   font-weight: bold;
-  font-size: medium;
   padding: 10px;
 }
 
@@ -222,5 +221,4 @@
 
 .footer_location {
   font-style: italic;
-  font-size: small;
 }/*# sourceMappingURL=sass.css.map */
